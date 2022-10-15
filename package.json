@@ -27,13 +27,13 @@
   "main": "routes/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alinarobertovna/website_authentification.git"
+    "url": "git+https://github.com/alinarobertovna/website_authentificaton.git"
   },
   "author": "Alina Fadeeva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alinarobertovna/website_authentification.git/issues"
+    "url": "https://github.com/alinarobertovna/website_authentificaton.git/issues"
   },
-  "homepage": "https://github.com/alinarobertovna/website_authentification.git#readme",
+  "homepage": "https://github.com/alinarobertovna/website_authentificaton.git#readme",
   "devDependencies": {}
 }

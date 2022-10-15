@@ -4,7 +4,7 @@
     {
         console.log("App started...");
 
-        let deleteButtons = document.querySelectorAll('.btn-danger')
+        let deleteButtons = document.querySelectorAll('.btn-danger');
 
         for (button of deleteButtons) {
             button.addEventListener('click', (event) => {

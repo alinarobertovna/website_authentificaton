@@ -152,6 +152,17 @@ input, textarea {
   
 }
 
+/* Contact List Page */
+#contact_table {
+  margin-left: 500px;
+}
+#table_title {
+  margin-left: 1000px;
+}
+#add_btn {
+  margin-left: 500px;
+}
+
 
 
 

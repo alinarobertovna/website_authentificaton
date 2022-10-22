@@ -35,10 +35,8 @@ module.exports.displayAddPage = (req, res, next) => {
 module.exports.processAddPage = (req, res, next) => {
     let newBook = Book({
         "name": req.body.name,
-        "author": req.body.author,
-        "published": req.body.published,
-        "description": req.body.description,
-        "price": req.body.price
+        "phone": req.body.phone,
+        "email": req.body.email
     });
 
     Book.create(newBook, (err, book) => {
@@ -77,10 +75,8 @@ module.exports.processEditPage = (req, res, next) => {
     let updatedBook = Book({
         "_id": id,
         "name": req.body.name,
-        "author": req.body.author,
-        "published": req.body.published,
-        "description": req.body.description,
-        "price": req.body.price
+        "phone": req.body.phone,
+        "email": req.body.email
     });
 
     Book.updateOne({_id: id}, updatedBook, (err) => {

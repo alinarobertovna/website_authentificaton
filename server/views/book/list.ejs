@@ -2,7 +2,9 @@
 
 <!--Main Nav-->
 <%- include('../partials/main_nav.ejs') %>
-    
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
 <!-- Main Content -->
 <br> <br> <br>
     <main>
@@ -15,7 +17,7 @@
                 <i class="fas fa-plus-circle"></i> Add Contact </a>
             <% } %>
             <br> <br>
-            <table id="contact_table" class="table table-bordered table-striped table-hover">
+            <table id="contact_table" class="table table-bordered table-striped table-hover sortable">
                 <!-- Header Row-->
                 <tr>
                     <th class="text-center col-2">Name</th>

@@ -1,4 +1,4 @@
-Portfolio Website <br> 
-Alina Fadeeva - Assignment 1 COMP 229
+Website Passport Authentication <br> 
+Alina Fadeeva - Assignment 2 COMP 229
 
-Build with ExpressJS, Bootstrap
+Build with ExpressJS, Bootstrap, Passport JS
